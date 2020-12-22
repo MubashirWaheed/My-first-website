@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0; 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -132,22 +135,20 @@ section{
     margin: 2rem;
     width: 100%;
     color: black;
+   
 }
 .about-content{
     color: black;
-    display: flex;
-      
+    display: flex;   
     width: 100%;
     justify-content: center;
 }
-
 .about-area ul li{
     padding: 20px;
     height: 280px;
     background-size: cover;
     background-position: center;
 }
-
 .about-area ul li .video{
     width: 450px;   
     margin: 0px 20px 20px 40px;
@@ -180,24 +181,81 @@ section{
     background-color: whitesmoke;
 }
 .services h2{
-    color: black;
-    margin-top: 3rem;
-    padding: 10px;
+    font-size: 2.5rem;
+    margin: 2rem;
     width: 100%;
+    color: black;
+    
 }
 .services-list{
     display: flex;
     flex-direction: row;
     color: black;
     margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 .services .services-list li{
     flex-basis: 33%;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
-.services .services-list li .icon{
-    width: 20px;
-    height:10px;
+.services .services-list li i{
+   margin-bottom: 1.5rem;
+}
+.services .services-list li i img{
+    margin-bottom: 1.5rem;
+}
+.fas{
+    color: #3B7CFF  
+}
+.fab{
+    color: olivedrab;
+}
+/* Contact */
+.contact{
+    background-color: white;
+}
+.contact h2{
+    color: black;
+    margin-top: 3rem;
+    padding: 10px;
+    width: 100%;
+    font-size: 2.5rem;
     
 }
+.contact ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+}
+.contact ul li{
+    padding: 6rem;
+}
+.footer{
+    color: white;
+    background-color: black;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer img{
+    padding: .4rem;
+}
+
+
+
+
+
+
+
+
+
